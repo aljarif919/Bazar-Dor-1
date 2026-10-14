@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound(){return <section className="not-found"><div className="number">404</div><h1>দুঃখিত, পৃষ্ঠাটি খুঁজে পাওয়া যায়নি</h1><p>আপনি যে পৃষ্ঠাটি খুঁজছেন সেটি নেই অথবা ঠিকানাটি ভুল।</p><Link className="btn btn-primary" href="/">হোম পেজে ফিরে যান</Link></section>}
